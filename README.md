@@ -39,16 +39,19 @@ The page presents my background, skills, interests, and includes a contact form.
 
 ---
 
-## 🗂️ File Structure
 
-Task 1/
-└── src/
-├── index.html ← Main HTML file
-└── imgs/ ← Folder containing image assets
-├── html.png
-├── css.svg
-└── javascript.png
-
+### 🗂️ File Structure
+```
+├── Task 1/
+    └── src/        
+    │    └── index.html      # Main HTML file
+    │    └── imgs            # Folder containing image assets
+    │         └── html.png     
+    │         └── css.svg   
+    │         └── javascript.png   
+    │
+    └── README.md            # This file
+```
 ---
 
 ## 🚀 How to Use
