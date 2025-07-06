@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+  </head>
+  <body>
+    <h1>Mariam Mahmoud Kilany</h1>
+    <h2><strong>Computer Science Student || Frontend Developer</strong></h2>
+
+    <!--& About Me section -->
+
+    <h3>About Me</h3>
+    <p>
+      My name is <strong>Mariam</strong> and I'm studying
+      <em><b>Computer Science</b></em>
+      at Faculty oF Computers and Artificial Intelligence.I specialize in
+      front-end development.
+    </p>
+    <p>
+      I love coding, and building user interfaces using modern technologies
+      likes React.
+    </p>
+
+    <!--& Unordered list of technical skills with images -->
+    <!-- <img> is used to display an image on the page -->
+    <!-- 'src' specifies the image file location -->
+    <!-- 'alt' provides a description if the image fails to load or for screen readers -->
+    <!-- 'width' controls how wide the image appears -->
+
+    <h3>Skills</h3>
+    <ul>
+      <li>
+        HTML <br /><img src="./imgs/html.png" alt="Html logo" width="60" />
+      </li>
+      <li>CSS <br /><img src="./imgs/css.svg" alt="Css logo" width="70" /></li>
+      <li>
+        JAVASCRIPT<br /><img
+          src="./imgs/javascript.png"
+          alt="javascript logo"
+          width="70"
+        />
+      </li>
+    </ul>
+
+    <!--& Checkboxes for programming languages -->
+    <!-- 'checked' attribute selects the checkbox by default -->
+    <!-- 'disabled' attribute makes the checkbox unclickable -->
+
+    <h3>programming languages I know</h3>
+
+    <input type="checkbox" id="js" name="language" value="js" checked />
+    <label for="js">JavaScript</label><br />
+
+    <input type="checkbox" id="python" name="language" value="python" checked />
+    <label for="python">Python</label><br />
+
+    <input type="checkbox" id="java" name="language" value="java" disabled />
+    <label for="java">Java</label><br />
+
+    <input type="checkbox" id="c++" name="language" value="c++" checked />
+    <label for="c++">C++</label><br />
+
+    <input type="checkbox" id="php" name="language" value="php" disabled />
+    <label for="php">PHP</label><br />
+
+    <!-- & Countries section -->
+    <h3>Countries i would like to visit</h3>
+    <p>
+      <em
+        >there are so many beautiful Countries I hope to visit someday, each
+        with its own culture, history, and unique charm.</em
+      >
+    </p>
+    <ol>
+      <li>Switzerland</li>
+      <li>Japan</li>
+      <li>Spain</li>
+    </ol>
+
+    <p>
+      One of my favorite websites is
+      <a href="https://www.pinterest.com" target="_blank"><b>Pinterest</b></a
+      >. It's a wonderful place where I find endless inspiration, creative
+      ideas, and a calming atmosphere that helps me relax and explore new
+      interests.
+    </p>
+
+    <!-- & Quote section -->
+    <h3>QUOTE OF THE DAY</h3>
+    <blockquote>
+      <b
+        ><em
+          >"live as if you were to die tomorrow. Learn as if you were to live
+          forever."</em
+        >
+      </b>
+    </blockquote>
+
+    <!--& Contact form -->
+    <!-- <table> is used to create a structured layout with rows and columns -->
+    <!-- <tr> defines a table row -->
+    <!-- <td> used for content inside each row -->
+
+    <fieldset>
+      <legend>
+        <h4>Contact Me</h4>
+      </legend>
+      <table>
+        <tr>
+          <td><label for="name">Your Name</label></td>
+          <td>:</td>
+          <td>
+            <input placeholder="ex.mariam" type="text" name="name" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone Number</label></td>
+          <td>:</td>
+          <td>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Egyptian number"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Email">Email</label></td>
+          <td>:</td>
+          <td>
+            <input
+              type="email"
+              id="Email"
+              name="email"
+              placeholder="mariam@gmail.com"
+            />
+          </td>
+        </tr>
+      </table>
+      <button type="submit">submit</button>
+    </fieldset>
+  </body>
+</html>
