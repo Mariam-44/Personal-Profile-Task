@@ -25,7 +25,7 @@ The page presents my background, skills, interests, and includes a contact form.
 
 ---
 
-## 🆕 New HTML Elements & Attributes (Not Covered in Class)
+## 🆕 New HTML Elements & Attributes
 
 | Feature                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
